@@ -7,5 +7,7 @@ int main() {
 	cin >> mode;
 	if (mode == 'm')
 		cout << "master" << endl;
+	else if (mode == 'f')
+		cout << "first" << endl;
 	return 0;
 }
